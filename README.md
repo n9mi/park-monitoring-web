@@ -2,7 +2,7 @@
 An interface and back-end for simple ESP8266 park monitoring. <br>
 https://simple-park-web.000webhostapp.com/slots
 
-## REST Documentation
+## Documentation
 ### (GET) available-slot
 https://simple-park-web.000webhostapp.com/api/available-slot
 ```
