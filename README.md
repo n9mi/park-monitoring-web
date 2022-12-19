@@ -27,5 +27,10 @@ If there's no error or conflict, the following slot will change to 'occupied'.
 ### (POST) check-out for vehicle
 https://simple-park-web.000webhostapp.com/api/check-out/{id_slot} <br>
 id_slot = uint; range(1,len(slots)+1)
-This endpoint is called when a vehicle leave the {id_slot} slot. 
+```
+    {
+        "error": <bool>
+    }
+```
+This endpoint is called when a vehicle leave the {id_slot} slot. Return a bool, stated there's an error or not.
 If there's no error or conflict, the following slot will change to 'available'.
